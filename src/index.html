@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Card</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="centered-container">
+        <header>
+            <nav>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="28" height="29" viewBox="0 0 24 24" stroke-width="1" stroke="#3f3f40" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <polyline points="6 9 12 15 18 9" />
+                </svg>
+                <select id="player-menu" class="player-menu">
+                    
+                </select>  
+            </nav>
+        </header>
+        <div class="player-card">
+            <div class="photo-wrapper">
+                <img src="#" alt="Player Photo">
+            </div>
+            <div class="crest-wrapper">
+                <img src="#" alt="">
+            </div>
+            <div class="stats">
+                <h1></h1>
+                <h2></h2>
+                
+                <div class="stat-row"><span class="catagory">Appearances</span><span class="apps value"></span></div>
+                <div class="stat-row"><span class="catagory">Goals</span><span class="goals value"></span></div>
+                <div class="stat-row"><span class="catagory">Assists</span><span class="assists value"></span></div>
+                <div class="stat-row"><span class="catagory">Goals per match</span><span class="gpm value"></span></div>
+                <div class="stat-row"><span class="catagory">Passes per minute</span><span class="ppm value"></span></div>
+            </div>
+        </div><!-- ./player-card -->
+    </div> <!-- ./centered-container -->
+    
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
